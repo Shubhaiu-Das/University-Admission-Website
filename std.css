@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 100px;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+header {
+    display: grid;
+    align-items: center;
+    color: aliceblue;
+    grid-template-columns: 3fr 1fr;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+header .ff {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header .ii {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: rgba(243, 24, 137, 0.8);
+    padding: 6px 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.2rem;
+    
+}
+
+button:hover {
+    color: black;
+    background-color: rgba(24, 243, 226, 0.8);
+}
+
+header img {
+    width: 70px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.main-form {
+    align-items: center;
+    margin: 50px auto;
+    max-width: 1100;
+    background-color: black;
+    opacity: 1;
+    color: white;
+    width: 50%;
+    padding: 20px;
+}
+
+body {
+    background-image: url("images/form1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main-form div {
+    padding-top: 7px;
+}
+
+footer {
+    display: grid;
+    color: white;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    grid-gap: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+ 
+}
+
+footer img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.imaa {
+    align-items: center;
+    justify-content: center;
+    width:10%;
+    margin: auto;
+
+}
+
+.cus {
+    /* width:50%; */
+    text-align: center;
+}
+
+.copy{
+    /* width:45%; */
+    text-align: center;
+}
+
+.login {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login div {
+    margin: 20px 0;
+}
+
+.login img{
+    z-index: 1;
+    opacity: 1;
+}
+
+.login-footer {
+    margin-top: 172px;
+}
+
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+section {
+    font-size: larger;
+}
+
+
+.mid{
+    width:auto;
+    text-align: center;
+    justify-content: center;
+}
